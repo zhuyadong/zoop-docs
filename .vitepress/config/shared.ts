@@ -3,8 +3,11 @@ import {search as zhSearch } from './zh'
 import {search as enSearch } from './en'
 
 export const shared = defineConfig({
-  base: '/zoop-docs/',
   title: 'Zoop',
+  base: '/zoop-docs/',
+  sitemap: {
+    hostname: 'https://zhuyadong.github.io',
+  },
   rewrites: {
     'zh/:rest*': ':rest*'
   },
