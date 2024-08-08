@@ -1,6 +1,6 @@
 # README
 
-English | 中文
+ [中文](#中文) | [English](#english)
 
 ## English
 To install dependencies:
