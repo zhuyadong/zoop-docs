@@ -3,7 +3,7 @@ import {search as zhSearch } from './zh'
 import {search as enSearch } from './en'
 
 export const shared = defineConfig({
-  base: '/',
+  base: '/zoop-docs/',
   title: 'Zoop',
   rewrites: {
     'zh/:rest*': ':rest*'
