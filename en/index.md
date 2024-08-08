@@ -53,7 +53,7 @@ pub const Human = struct {
     }
 
     pub fn deinit(self: *Human) void {
-        self.* = undefined;
+        self.name = "";
     }
 
     pub fn Fn(comptime T: type) type {
