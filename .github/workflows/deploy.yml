@@ -1,4 +1,4 @@
-name: Deploy VitePress site to Pages
+name: Deploy
 
 on:
   push:
@@ -10,6 +10,10 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -20,7 +24,7 @@ jobs:
           fetch-depth: 0
 
       - name: Setup Bun
-        uses: oven-sh/setup-bun@v1
+        uses: oven-sh/setup-bun@v2
         with:
           bun-version: latest
 
@@ -30,7 +34,12 @@ jobs:
       - name: Build with VitePress
         run: bun run docs:build
 
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./.vitepress/dist
+
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
         with:
-          path: .vitepress/dist
+          path: ./.vitepress/dist
