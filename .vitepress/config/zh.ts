@@ -14,8 +14,8 @@ export const zh = defineConfig({
       "/reference/": { base: "/reference/", items: sidebarReference() },
     },
     editLink: {
-      pattern: "https://gitee.com/aeix/zoop_manual/edit/master/:path",
-      text: "在gitee上编辑此页面",
+      pattern: "https://github.com/zhuyadong/zoop-docs/edit/main/:path",
+      text: "在 github 上编辑此页面",
     },
     footer: {
       message: "基于 MIT 许可发布",

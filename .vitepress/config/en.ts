@@ -1,4 +1,4 @@
-import { defineConfig, DefaultTheme } from "vitepress";
+import { defineConfig, DefaultTheme } from 'vitepress'
 
 export const en = defineConfig({
   lang: "en-US",
@@ -14,8 +14,8 @@ export const en = defineConfig({
       "/en/reference/": { base: "/en/reference/", items: sidebarReference() },
     },
     editLink: {
-      pattern: "https://gitee.com/aeix/zoop_manual/edit/master/:path",
-      text: "Edit this page on gitee",
+      pattern: "https://github.com/zhuyadong/zoop-docs/edit/main/:path",
+      text: "Edit this page on github",
     },
     footer: {
       message: "Released under the MIT License",
