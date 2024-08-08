@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 480 239.9999"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="zoop-logo.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   width="480"
+   height="240"
+   inkscape:export-filename="zoop-logo.png"
+   inkscape:export-xdpi="120"
+   inkscape:export-ydpi="120"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs12">
+    <rect
+       x="69.755531"
+       y="22.002329"
+       width="8.1490107"
+       height="28.847498"
+       id="rect13" />
+    <rect
+       x="70.733414"
+       y="25.098951"
+       width="3.7485447"
+       height="25.424913"
+       id="rect12" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview12"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.20625"
+     inkscape:cx="240"
+     inkscape:cy="112.63456"
+     inkscape:window-width="1920"
+     inkscape:window-height="1055"
+     inkscape:window-x="-7"
+     inkscape:window-y="-7"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg12" />
+  <g
+     id="g1"
+     transform="matrix(1.0363373,0,0,1.0363373,-8.0292493,-69.859076)">
+    <g
+       fill="#f7a41d"
+       id="g12"
+       transform="matrix(1.4076346,0,0,1.4076346,8.9127957,84.667588)">
+      <g
+         id="g3">
+        <polygon
+           points="46,22 28,44 19,30 "
+           id="polygon1" />
+        <polygon
+           points="31,95 20,100 12,117 0,117 0,22 46,22 33,33 28,44 22,44 22,95 "
+           shape-rendering="crispEdges"
+           id="polygon2" />
+        <polygon
+           points="31,95 12,117 4,106 "
+           id="polygon3" />
+      </g>
+      <g
+         id="g8">
+        <polygon
+           points="56,22 62,36 37,44 "
+           id="polygon4" />
+        <polygon
+           points="56,22 111,22 111,44 37,44 56,32 "
+           shape-rendering="crispEdges"
+           id="polygon5" />
+        <polygon
+           points="116,95 97,117 90,104 "
+           id="polygon6" />
+        <polygon
+           points="116,95 100,104 97,117 42,117 42,95 "
+           shape-rendering="crispEdges"
+           id="polygon7" />
+        <polygon
+           points="101,22 150,0 52,117 3,140 "
+           id="polygon8" />
+      </g>
+      <g
+         id="g11"
+         transform="translate(174.87207)">
+        <polygon
+           points="140,40 122,45 141,22 "
+           id="polygon9" />
+        <polygon
+           points="131,45 122,45 132,36 141,22 153,22 153,117 106,117 120,105 125,95 131,95 "
+           shape-rendering="crispEdges"
+           id="polygon10" />
+        <polygon
+           points="130,110 106,117 125,95 "
+           id="polygon11" />
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:139.727px;font-family:Stencil;-inkscape-font-specification:Stencil;fill:#f7a41d;fill-opacity:1;stroke-width:11.6438"
+       x="249.05368"
+       y="223.27028"
+       id="text14"
+       transform="matrix(0.891176,0,-0.23251193,1.1221128,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan14"
+         x="249.05368"
+         y="223.27028"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Stencil;-inkscape-font-specification:Stencil;stroke-width:11.6438">oop</tspan></text>
+  </g>
+</svg>
