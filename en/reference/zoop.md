@@ -143,6 +143,17 @@ parameter:
 Returns: a [tuple](tuple) containing all the classes from `T` to `Target` in the inheritance tree (the result contains `Target` but not `T`)
 :::
 
+## zoop.typeId {#typeId}
+```zig
+pub fn typeId(any: anytype) u32
+```
+:::info Function：Get the `typeid` of `any`
+parameter：
+- `any`: [Interface](principle#term) instance, or [Class](principle#term) type/instance pointer
+
+Returns: `typeid` for `any`
+:::
+
 ## zoop.typeInfo {#typeInfo}
 ```zig
 pub fn typeInfo(any: anytype) *const TypeInfo

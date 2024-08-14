@@ -143,6 +143,17 @@ pub fn SuperRoute(comptime T: type, comptime Target: type) type
 返回：一个 [tuple](tuple)，包含继承树上从 `T` 到 `Target` 依次经过的所有类 (结果包含 `Target` 但不包含 `T`)
 :::
 
+## zoop.typeId {#typeId}
+```zig
+pub fn typeId(any: anytype) u32
+```
+:::info 功能：获取 `any` 的 `typeid`
+参数：
+- `any`: [Interface](principle#term) 实例，或者 [Class](principle#term) 类型/实例指针 
+
+返回：`any` 的 `typeid`
+:::
+
 ## zoop.typeInfo {#typeInfo}
 ```zig
 pub fn typeInfo(any: anytype) *const TypeInfo
