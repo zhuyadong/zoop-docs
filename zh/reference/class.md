@@ -62,7 +62,7 @@ pub fn as(self: *const Self, comptime T: type) t: {
 返回：如果可以转换，返回转换后的对象或者接口，否则返回 `null`
 :::
 :::tip 注意
-这个转换需要进行一次 `std.StaticStringMap.get()` 操作，是有开销的
+这个转换需要进行一次数组搜索操作，是有开销的
 :::
 
 ## cast {#cast}

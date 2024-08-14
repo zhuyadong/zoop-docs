@@ -62,7 +62,7 @@ parameter:
 Return: If the conversion is possible, return the converted object or interface, otherwise return `null`
 :::
 :::tip Note
-This conversion requires a `std.StaticStringMap.get()` operation, which is expensive.
+This conversion requires an array search operation, which is expensive.
 :::
 
 ## cast {#cast}

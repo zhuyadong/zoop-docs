@@ -44,6 +44,6 @@ sub = iobj.?.as(SubClass).?;
 bas = iobj.?.as(Basic);
 ```
 :::tip 注意
-- 动态转换需要执行一次 `std.StaticStringMap.get()` 操作，不是0成本的。而静态转换只有指针操作，近乎0成本。
+- 动态转换需要执行数组搜索操作，不是0成本的。而静态转换只有指针操作，近乎0成本。
 - 动态转换不需要对象是 [rootptr](../reference/principle#term) 指向的对象
 :::

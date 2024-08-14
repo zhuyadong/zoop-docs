@@ -44,6 +44,6 @@ sub = iobj.?.as(SubClass).?;
 bas = iobj.?.as(Basic);
 ```
 :::tip Note
-- Dynamic conversion requires a `std.StaticStringMap.get()` operation, which is not 0 cost. Static conversion only requires pointer operations, which is almost 0 cost.
+- Dynamic conversion requires an array search operation, which is not 0 cost. Static conversion only requires pointer operations, which is almost 0 cost.
 - Dynamic conversion does not require the object to be the object pointed to by [rootptr](../reference/principle#term)
 :::
