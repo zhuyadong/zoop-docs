@@ -169,5 +169,6 @@ pub const SubClass = struct {
 
 :::tip Note
 - Objects on the heap must call [destroy()](../reference/class#destroy), otherwise there will be memory leaks. Objects on the stack also need to call [destroy()](../reference/class#destroy) if they need to ensure that `deinit()` is called.
+- [destroy()](../reference/class#destroy) can only be called on the object that 'rootptr' points to
 - Do not destroy `mixin` data in the class's `deinit()` method, such as `self.* = undefined`, because the subclass's `mixin` contains all the fields of the parent class.
 :::

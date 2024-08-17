@@ -169,5 +169,6 @@ pub const SubClass = struct {
 
 :::tip 注意
 - 堆上对象一定要调用 [destroy()](../reference/class#destroy)，否则会有内存泄漏。栈上对象如果需要保证 `deinit()` 被调用，也需要调用 [destroy()](../reference/class#destroy)。
+- 只能在 `rootptr` 指向的对象上调用 [destroy()](../reference/class#destroy)。
 - 不要在类的 `deinit()` 方法中破坏 `mixin` 数据，比如 `self.* = undefined`，因为子类的 `mixin`中包含父类所有字段。
 :::
